@@ -1,6 +1,7 @@
 html,body{
 	font-family: Arial, sans-serif;
 	background-image: white;
+	max-height: 100% auto;
 }
 
 .wrapper{
@@ -38,6 +39,7 @@ h1{
   -webkit-text-fill-color: transparent;
 	
 	
+	
 }
 
 header img{
@@ -46,8 +48,11 @@ header img{
 	max-width: 30%;
 	text-align: center;
 	width: 300px auto;
-	border-radius: 150px;
+	padding: 8px;
+	border-radius: 220px;
 	border: 10px solid #F9EBB0;
+	background-image: linear-gradient(to bottom, red, black);
+	
 
 	
 	
@@ -76,14 +81,17 @@ h2{
 }
 .content{
 	max-width: 80%;
-	margin: 0 auto;
+	margin: auto;
+	margin-bottom: 220px;
 	padding: 10px 20px ;
 	background-color: white;
 	opacity: 0.9;
 	border-radius: 25px;
+	
 }
 
-img.big-image{	
+img.big-image{
+	margin: auto;
 	max-width: 100%;
 }
 
@@ -97,25 +105,31 @@ ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	color: white;
+	color: black;
 }
 
 a{
-	color: white;
+	
+	color:red;
 	text-decoration: none;
+	font-family: 'Barlow Condensed', sans-serif;
 	
 }
 
 a:hover{
-	background-color: #80b3ff;
+	color: brown;
 }
 
 footer{
-	
+	background-color: white;
 	max-width: 80%;
-	margin: 200px  auto;
-	padding: 20px;	
 	
+	margin: auto ;
+	padding: 20px;	
+	border: 15px solid black;
+	opacity: 0.85;
+	border-radius: 45px;
+
 	
 	
 	
@@ -127,9 +141,19 @@ ul{
 	
 }
 
-
+.li{
+		color: black;
+	background-image: linear-gradient(to right, red, black);
+	text-align: center;
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+	padding 5px 30px 5px 30px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
 
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
+	font-family: 'Barlow Condensed', sans-serif;
 }
