@@ -100,12 +100,21 @@ h2{
 
 
 img.big-image{
-	display: block;
+	 display: block;
  	margin-left: auto;
   	margin-right: auto;
-	max-width: 100%;
+	width: 80%;
+	transition:all 0.5s ease;
 	
 }
+
+img.big-image:hover
+        {
+            -webkit-transform: scale(1.25);
+            -ms-transform: scale(1.25);
+            transform: scale(1.25);
+			
+        }
 
 p.caption{
 	font-size: 14px;
