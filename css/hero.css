@@ -1,34 +1,89 @@
 html,body{
 	font-family: Arial, sans-serif;
-	margin: 0;
+	background-image: white;
 }
 
+.wrapper{
+	margin: 50px;
+	border-radius: 50px;
+	background-image: url("../img/BGimage.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+ 	background-size: 50%;
+	background-color: black;
+}
 
 header{
-	background-color:navy;
-	padding: 40px;
+
+	background-repeat: repeat;
+	
+	padding: 10px;
 	text-align: center;
 }
 
 h1{
-	font-size: 90px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 100px;
 	color: aliceblue;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 80%;
+	margin-right: 100px auto;
+	margin-left: 100px auto;
+	background: -webkit-linear-gradient(left, red , yellow);
+   background: -o-linear-gradient(right, red, yellow);
+   background: -moz-linear-gradient(right, red, yellow);
+   background: linear-gradient(to right, red , yellow); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+	
 }
 
 header img{
 
+	
+	max-width: 30%;
+	text-align: center;
+	width: 300px auto;
 	border-radius: 150px;
-	width: 300px;
-	border: 20px solid #ffcc00;
+	border: 10px solid #F9EBB0;
+
+	
+	
+}
+
+hr{
+	border: 5px solid red;
+	border-radius: 40px;
+	max-width: 84%;
+	
+	
+	
+	
+}
+
+h2{
+	color: aliceblue;
+	background-image: linear-gradient(to right, red, black);
+	text-align: center;
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+	padding 5px 30px 5px 30px;
+	font-family: 'Barlow Condensed', sans-serif;
 	
 }
 .content{
-	max-width: 900px;
+	max-width: 80%;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 10px 20px ;
+	background-color: white;
+	opacity: 0.9;
+	border-radius: 25px;
 }
 
-img.big-image{
+img.big-image{	
 	max-width: 100%;
 }
 
@@ -42,26 +97,39 @@ ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	color: white;
 }
 
 a{
-	color: red;
+	color: white;
 	text-decoration: none;
 	
 }
 
+a:hover{
+	background-color: #80b3ff;
+}
+
 footer{
-	margin-top: 20px;
-	padding: 40px;
-	background-color:#737373;
+	
+	max-width: 80%;
+	margin: 200px  auto;
+	padding: 20px;	
+	
+	
+	
+	
 	text-align: center;
 }
 
 ul{
 	text-align: center;
+	
 }
+
+
 
 footer ul li{
 	display: inline-block;
-	maring: 0 5px;
+	margin: 0 5px;
 }
