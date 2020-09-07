@@ -1,6 +1,6 @@
 html,body{
-	font-family: Arial, sans-serif;
-	background-image: white;
+	font-family: 'Barlow', sans-serif;
+	background-image: linear-gradient(#e6e6e6, #404040);
 	max-height: 100% auto;
 }
 
@@ -23,14 +23,12 @@ header{
 }
 
 h1{
+	
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 100px;
-	color: aliceblue;
+	font-size: 80px;
 	text-transform: uppercase;
 	text-align: center;
 	line-height: 80%;
-	margin-right: 100px auto;
-	margin-left: 100px auto;
 	background: -webkit-linear-gradient(left, red , yellow);
    background: -o-linear-gradient(right, red, yellow);
    background: -moz-linear-gradient(right, red, yellow);
@@ -44,14 +42,18 @@ h1{
 
 header img{
 
-	
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+	margin-bottom: 20px;
 	max-width: 30%;
-	text-align: center;
-	width: 300px auto;
-	padding: 8px;
+	padding: 10px;
 	border-radius: 220px;
 	border: 10px solid #F9EBB0;
 	background-image: linear-gradient(to bottom, red, black);
+	box-shadow: 0px 0px 100px red;
+	
+	
 	
 
 	
@@ -77,28 +79,35 @@ h2{
 	height: auto;
 	padding 5px 30px 5px 30px;
 	font-family: 'Barlow Condensed', sans-serif;
+	text-shadow: 0px 0px 5px black;
 	
 }
 .content{
 	max-width: 80%;
 	margin: auto;
-	margin-bottom: 220px;
+	margin-bottom: 320px;
 	padding: 10px 20px ;
-	background-color: white;
+	background-image: linear-gradient(to top, #262626, #ffebe6);
+	background-color: #bfbfbf;
 	opacity: 0.9;
 	border-radius: 25px;
+	box-shadow: 0px 0px 70px red;
 	
 }
 
 img.big-image{
-	margin: auto;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
 	max-width: 100%;
+	
 }
 
 p.caption{
-	font-size: 16px;
-	color: lightgray;
+	font-size: 14px;
+	color: darkgray;
 	font-style:italic;
+	text-align: right;
 }
 
 ul{
@@ -110,25 +119,25 @@ ul{
 
 a{
 	
-	color:red;
+	color:white;
 	text-decoration: none;
-	font-family: 'Barlow Condensed', sans-serif;
+	
 	
 }
 
 a:hover{
-	color: brown;
+	color: gold;
 }
 
 footer{
-	background-color: white;
-	max-width: 80%;
 	
+	max-width: 80%;
+	background-color: rgba(0,0,0,0.50);
 	margin: auto ;
-	padding: 20px;	
-	border: 15px solid black;
-	opacity: 0.85;
-	border-radius: 45px;
+	padding: 30px;	
+	
+	
+	
 
 	
 	
@@ -142,18 +151,19 @@ ul{
 }
 
 .li{
-		color: black;
+	color: white;
 	background-image: linear-gradient(to right, red, black);
 	text-align: center;
 	border-radius: 10px;
 	width: auto;
 	height: auto;
 	padding 5px 30px 5px 30px;
-	font-family: 'Barlow Condensed', sans-serif;
+	
 }
 
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
-	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	
 }
