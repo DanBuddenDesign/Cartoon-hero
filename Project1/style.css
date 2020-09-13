@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+
+}
+    
+    
+    
+body {
+    background-image: url('images/BITDBG.jpg');
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.container {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+
+
+header {
+    
+    height: 118px;
+    text-align: center;
+    
+    
+}
+
+
+
+nav {
+    background-color: rgba(96, 129, 129, 0.198);
+    /* height: 40px; */
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+
+    
+}
+
+
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: rgba(8, 8, 8, 0.596);
+    /* height: 10px; */
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main a {
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right,rgb(60, 255, 0), yellow);
+    padding: 15px 32px;
+    border-radius: 5px;
+
+}
+
+main a:hover {
+    background-color: rgb(187, 255, 124);
+    padding: 15px 32px;
+    border-radius: 5px;
+    box-shadow:0px 0px 10px #ffe25f;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    /* vertical-align: center; */
+
+
+
+}
+
+nav a:hover {
+
+    text-decoration: none;
+    font-size: 12px;
+    text-shadow:0px 0px 10px #ffe25f;
+}
+
+footer p {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.548);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img:hover {
+    transform: scale(0.95, 0.95);
+    
+}
+
+.map {
+
+    text-align: center;
+    transform: scale(0.5, 0.5);
+
+}
