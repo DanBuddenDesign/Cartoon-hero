@@ -1,6 +1,6 @@
 html {
 
-    height: 100%;
+    
 }
 
 
@@ -36,8 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+    border-bottom: 2px solid #ffffffa1;    
 }
 
 main {
@@ -126,6 +125,7 @@ p {
     font-size: 100px;
     opacity: 0.65;
     padding-top: 30px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
 .cards a {
@@ -138,10 +138,15 @@ p {
         color: #FA4083;
         font-family: 'Playfair Display', serif;
         padding: 11px 15px;
-        border-radius: 2px 20px;
+        border-radius: 2px 2px;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
         
     }
+.mybutton:hover {
+    background-color: rgb(54, 54, 54);
+    transition: 0.5s;
+}
+
 
 a.mybutton {
     display: inline-block;
@@ -151,4 +156,39 @@ a.mybutton {
 .herobox2 img {
 
     border-radius: 12px;
+}
+.navbutton {
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 20px;
+    border-radius: 4px 4px;
+    border-color: rgba(255, 255, 255, 0.753);
+
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-top: 50px;
+    border-radius: 4px 4px;
+}
+/* .tbox :last-child {
+    font-size: 0.8rem;
+} */
+.tbox p:last-of-type {
+
+    font-size: 0.8rem;
+    padding-left: 25px;
+
 }
