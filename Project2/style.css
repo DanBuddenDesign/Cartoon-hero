@@ -1,9 +1,14 @@
 
+html {
 
+    background-image: linear-gradient(#FC5E55 , #FA4083);
+}
 
 body {
 
-    background-image: linear-gradient(#FC5E55 , #FA4083);
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.25rem;
@@ -16,11 +21,11 @@ a {
 }
 
 .container {
-width: 1024px;
-
-min-height: 300px;
-margin-left: auto;
-margin-right: auto;
+    width: 1024px;
+    
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -42,6 +47,12 @@ main {
     align-items: center;
 
 }
+.main2 {
+
+    min-height: 280px;
+    padding-top: 20px;
+}
+
 
 .cards {
     display: flex;
@@ -130,12 +141,12 @@ p {
     
     }
 .mybutton {
-        background-color: white;
-        color: #FA4083;
-        font-family: 'Playfair Display', serif;
-        padding: 11px 15px;
-        border-radius: 2px 2px;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 15px;
+    border-radius: 2px 2px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
         
     }
 .mybutton:hover {
@@ -217,4 +228,49 @@ a.mybutton {
 .dropdown .navbutton a {
 
     color: #FA4083;
+}
+.inputwrapper {
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.newline {
+
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+
+}
+
+
+form {
+    margin: 40px 0px;
+
+}
+.mybutton2 {
+    background-color: white;
+    border:  none;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding: 11px 15px;
+    border-radius: 10px 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+.mybutton2:hover {
+    background-color: rgb(54, 54, 54);
+    transition: 0.5s;
 }
