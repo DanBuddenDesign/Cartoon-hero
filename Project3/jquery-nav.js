@@ -24,9 +24,8 @@ $(document).ready(function(){
 
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-        $('.text-wrap').css({'opacity':( 100-scroll )/100});
+        $('.text-wrap').css({'opacity':( 300-scroll )/300});
 });
-
 
 
 

@@ -1,1 +1,13 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:14.9352;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M250,129.9L250,129.9c40.15,0,72.69,32.55,72.69,72.69v78.38c0,40.15-32.55,72.69-72.69,72.69h0
+	c-40.15,0-72.69-32.55-72.69-72.69v-78.38C177.31,162.44,209.85,129.9,250,129.9z"/>
+<polyline class="st0" points="225.51,91.34 248.58,68.26 274.49,94.18 "/>
+<polyline class="st0" points="225.51,408.66 248.58,431.74 274.49,405.82 "/>
+<line class="st0" x1="250" y1="180.47" x2="250" y2="205.75"/>
+</svg>
